@@ -96,6 +96,26 @@ p {
     justify-content: space-between;
 }
 
+.soflex2
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soflex2 div {
+  width: 80px;
+  height: 80px;
+  
+  margin-right: 10px;
+  
+  /*background: #ffffff;*/
+}
+
+.bg-blue {
+  background: #2196F3;
+}
+
 .soflex2 > div
 {
     display: flex;

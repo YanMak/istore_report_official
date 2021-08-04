@@ -76,7 +76,7 @@ const App = () => {
   }
 
   const printTableHeader = () => (
-      <div>
+      <div class="soflex2">
         <div>Период</div>
         <div>Всего отгружено</div>
         <div>Оплачено онлайн</div>
@@ -91,7 +91,7 @@ const App = () => {
   )
 
   const printTableColumn = (incomingData) => (
-      <div>
+      <div class="soflex2">
         <div>{incomingData.Период}</div>
         <div>{incomingData.ВсегоОтгружено}</div>
         <div>{incomingData.ОплаченоОнлайн}</div>
